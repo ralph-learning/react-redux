@@ -19,7 +19,7 @@ import store, { history } from './store';
 import Raven from 'raven-js';
 import { sentry_url } from './data/config';
 
-Raven.config('https://307e782781aa4ee48b2e10b9d7bbe282@sentry.io/122945').install()
+Raven.config('https://307e782781aa4ee48b2e10b9d7bbe282@sentry.io/122945').install();
 
 const router = (
   <Provider store={store}>
